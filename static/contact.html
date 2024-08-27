@@ -1,68 +1,106 @@
-<Doctype html>
-<html>
-    <head>
-        <title>Contact</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
 
-            header {
-                background-color: #333;
-                color: #fff;
-                padding: 10px 0;
-                text-align: center;
-            }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
 
-            nav ul {
-                list-style-type: none;
-                padding: 0;
-            }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
 
-            nav ul li {
-                display: inline;
-                margin-right: 10px;
-            }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
 
-            nav ul li a {
-                color: #fff;
-                text-decoration: none;
-            }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-            main {
-                padding: 20px;
-            }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
 
-            section {
-                margin-bottom: 20px;
-            }
+        main {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
 
-            footer {
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                padding: 10px 0;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="contact">Contact</a></li>
-                    <li><a href="courses">Courses</a></li>
-                </ul>
-            </nav>
-        </header>
+        section {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-        <main>
-            <section>
-                <h1>Contact Us</h1>
-                <p>For any doubts while learning, Join our Members only exclusive slack channel</p>
-                <a href="https://www.youtube.com/abhishekVeeramalla/join">Join Slack</a>
+        h1 {
+            color: #444;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            <p>If you'd like to get in touch, feel free to contact me through any of the following methods:</p>
+            <p><strong>Email:</strong> <a href="mailto:adedoyinekong@gmail.com">adedoyinekong@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adedoyin-ekong/" target="_blank">linkedin.com/in/adedoyin-ekong</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/doyindevops?tab=repositories" target="_blank">github.com/doyindevops</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Adedoyin Ekong</p>
+    </footer>
+</body>
+</html>

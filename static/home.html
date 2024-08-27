@@ -10,46 +10,82 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
         }
 
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px 0;
+            padding: 15px 0;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 20px;
         }
 
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
         }
 
         main {
-            padding: 20px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #444;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin: 10px 0;
         }
 
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
         }
     </style>    
 </head>
@@ -57,35 +93,32 @@
     <header>
         <nav>
             <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contact">Contact</a></li>
-                <li><a href="courses">Courses</a></li>
+                <li><a href="home">🏠 Home</a></li>
+                <li><a href="about">👤 About</a></li>
+                <li><a href="contact">📧 Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h1>Learn DevOps from Basics</h1>
-            <p>The main purpose of this website is to guide people on how to learn DevOps 
-                from basics for Free. We will provide you with the best resources to learn.
-            </p>
+            <h1>My Journey as a DevOps Engineer</h1>
+            <p>👋 Welcome to my personal page! I'm Adedoyin Ekong, a passionate DevOps and DevSecOps Engineer. I created this website to share my journey and projects, including my latest endeavor, the go-web-app project. 🚀</p>
         </section>
 
         <section>
             <h2>Overview</h2>
-            <p> Zero to Hero courses on all DevOps tools and popular Cloud(AWS and Azure) platform</p>
+            <p>🔧 My path into DevOps began with a focus on automating and optimizing IT infrastructures. Over the years, I've developed a deep expertise in cloud infrastructure and CI/CD pipelines, utilizing tools like AWS, Terraform, Jenkins, and GitHub Actions. Security has always been a key focus in my work, ensuring that the systems I build are not only efficient but also secure and resilient. 🔒</p>
         </section>
 
         <section>
-            <h2>Courses Offered</h2>
-            <p>Please look at the <a href="courses">courses</a> section.</p>  
+            <h2>About the go-web-app Project</h2>
+            <p>💻 The go-web-app project is a showcase of my skills in building scalable, efficient web applications using Go. This project highlights my ability to integrate various DevOps tools and practices to ensure smooth, automated deployments and robust performance in cloud environments. ☁️</p>  
         </section>
     </main>
 
     <footer>
-        <p>&copy; Abhishek.Veeramalla</p>
+        <p>&copy; 2024 Adedoyin Ekong</p>
     </footer>
 </body>
 </html>

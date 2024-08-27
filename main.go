@@ -10,11 +10,6 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "static/home.html")
 }
 
-func coursePage(w http.ResponseWriter, r *http.Request) {
-	// Render the course html page
-	http.ServeFile(w, r, "static/courses.html")
-}
-
 func aboutPage(w http.ResponseWriter, r *http.Request) {
 	// Render the about html page
 	http.ServeFile(w, r, "static/about.html")
@@ -28,11 +23,11 @@ func contactPage(w http.ResponseWriter, r *http.Request) {
 func main() {
 
 	http.HandleFunc("/home", homePage)
-	http.HandleFunc("/courses", coursePage)
 	http.HandleFunc("/about", aboutPage)
 	http.HandleFunc("/contact", contactPage)
 
-	err := http.ListenAndServe("0.0.0.0:8080", nil)
+	// Change the port from 8080 to 9090
+	err := http.ListenAndServe("0.0.0.0:9090", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
