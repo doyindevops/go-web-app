@@ -25,19 +25,19 @@ This is a simple website written in Golang. It uses the `net/http` package to se
 
 ### Running the Server
 
-To run the server locally, execute the following command:
+To run the server locally, I executed the following command:
 
 ```bash
 go run main.go
 ```
 
-The server will start on port 9090. You can access it by navigating to `http://localhost:9090/home` in your web browser.
+The server will start on port 9090. You can access it by navigating to `http://localhost:9090/home` in your web browser. (Your choice of port is not cast in stone. I used 9090 because I had another application using 8080 on my localhost)
 
 ## Getting Started
 
 ### Prerequisites
 
-To get started with this project, you will need the following tools and platforms:
+To get started with this project, I made sure that the following tools and platforms were available and accessible :
 
 - **Docker**: Install Docker to build and run containers.
 - **Kubernetes Cluster**: A Kubernetes cluster to deploy the application.
