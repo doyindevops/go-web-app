@@ -1,6 +1,9 @@
 
 # MY GO-WEB-APPLICATION!
 
+[![CI/CD](https://github.com/doyindevops/go-web-app/actions/workflows/cicd.yaml/badge.svg)](https://github.com/doyindevops/go-web-app/actions/workflows/cicd.yaml)
+
+
 Welcome to the **Go Web Application with DevOps Practices** project! This repository showcases a comprehensive implementation of DevOps best practices for a Go web application. As a passionate DevOps engineer, I aimed to demonstrate a full-fledged CI/CD pipeline, containerization, and automated deployment using industry-standard tools.
 
 ## Project Overview
